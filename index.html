@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>¡Canasta de Pan!</h1>
+    <img src="https://scontent.fmex16-1.fna.fbcdn.net/v/t39.30808-6/302441533_5428323047260049_2168184150588833449_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=cs2MyiFUdVAQ7kNvgEepMZ6&_nc_zt=23&_nc_ht=scontent.fmex16-1.fna&_nc_gid=Ad1PLNQfbPLcPUlCIo4NicB&oh=00_AYBcbAYKtsi2HNTb0dlpthLXhvv5Yu9NNY9Nl65nrRH-9w&oe=6739DFF8" alt="Canasta de Pan Mexicano" width="480" height="580" />
+    <h2>Primero, unas preguntas.</h2>
+    <form action="/submit" method="post">
+    
+        <!-- Pregunta 1 -->
+        <label for="pan-pastel">¿Prefieres Pan o Pastel?</label><br>
+        <select id="pan-pastel" name="pan-pastel">
+            <option value="pan">Pan</option>
+            <option value="pastel">Pastel</option>
+        </select><br><br>
+
+        <!-- Pregunta 2 -->
+        <label for="bebida">¿Con qué bebida sueles acompañar el pan?</label><br>
+        <input type="text" id="bebida" name="bebida" placeholder="Ej. café, té, jugo"><br><br>
+
+        <!-- Pregunta 3 -->
+        <label>¿Eres team Gluten-Chi o Gluten-Free?</label><br>
+        <input type="radio" id="gluten-chi" name="gluten" value="gluten-chi">
+        <label for="gluten-chi">Gluten-Chi</label><br>
+        <input type="radio" id="gluten-free" name="gluten" value="gluten-free">
+        <label for="gluten-free">Gluten-Free</label><br><br>
+
+        <input type="submit" value="Enviar">
+    <h2>Ahora, una lista de los Mexican breads más comúnes</h2>
+    <img src="https://i.pinimg.com/736x/cf/3f/c2/cf3fc2cc2a30c5a6601855e996c87ce1.jpg" alt="Panes Mexas" >
+    <p><ol>
+        <li>Concha</li>
+        <li>Oreja</li>
+        <li>Pan de Muerto</li>
+        <li>Bigote</li>
+        <li>Cuernito</li>
+        <li>Roles de Canela</li>
+    </ol></p>
+    
+</body>
+</html>
